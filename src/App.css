@@ -32,7 +32,85 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  margin: 100px;
+}
+
+.swiper {
+  width: 80%;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px !important;
+  height: 250px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.last-div {
+  margin-left: 200px;
+}
+
+.head-3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.head-2 {
+  margin-top: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.imd {
+  background-color: rgb(255, 166, 1);
+  padding: 2px 4px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.number {
+  margin-left: 15px;
+}
+
+.last-div-2 {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lorem {
+  line-height: 1.6rem;
+}
+
+.read {
+  color: orange;
+  font-weight: 600;
+}
+
+button {
+  margin-top: 10px;
+  background-color: rgb(255, 166, 1);
+  border: 2px solid orange;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 25px;
+  cursor: pointer;
 }
